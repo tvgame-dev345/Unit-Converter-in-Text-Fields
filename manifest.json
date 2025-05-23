@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Unit Converter in Text Fields",
+  "version": "1.0",
+  "description": "Right click to convert text inside input/textarea to MB or GB.",
+  "permissions": ["contextMenus", "scripting", "activeTab"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "Unit Converter"
+  }
+}
